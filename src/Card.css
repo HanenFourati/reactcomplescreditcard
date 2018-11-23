@@ -1,0 +1,116 @@
+.Card-style{
+    color:white;
+    width:700px;
+    height: 450px;
+    margin-left: 2%;
+    background-color: #55cf96;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        17deg,
+        #070707 0%,
+        #131414 12%,
+        #2c302e 37%,
+        #2c3130 51%,
+        #1d1f1e 64%,
+        #0f0f0f 83%,
+        #000000 100%
+    );
+}
+h1{
+    text-align: right;
+    padding: 5%;
+}
+#firstimage {
+    width: 70px;
+    height: 60px;
+    padding-left: 40px;
+    float: left;
+}
+.emptydiv{
+    height: 60px;
+}
+#secondimage {
+    width: 100px;
+    height: 200px;
+    padding-right: 10px;
+    margin-bottom: 8px;
+    float: right;
+    
+}
+#highlighted{
+ font-size: 28px;
+ text-align: center;
+ font-family:Monospace;
+ background-color: #dfd32580;
+ color: #ccbf05;
+ font-family: 'Courier New', Courier, monospace;
+}
+.twodivspart{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.firstpart{
+    text-align: left;
+    width: 60%;
+}
+.secondpart{
+    text-align: left;
+    width: 40%;
+}
+
+.s{
+    text-align: center;
+    font-size: 8px;
+
+}
+.paranumber{
+    display: flex;
+   justify-content: space-between;
+}
+.inlinecontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+width: 70%;
+}
+.tinyicon{
+    width: 15%;
+    font-size: 10px;
+    align-self: center;
+}
+.interline{
+    width: 15%;
+    line-height: 1px;
+}
+.cardcomplex{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.inputstyle{
+    width:500px;
+    height: 450px;
+    background-color: rgba(236, 230, 230, 0.603);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+input {
+    width:  90%;
+}
+label{
+    
+    float: left;
+   
+}
+input[type=text] {
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin: 2px;
+  height: 30px;}
+  .warningstyle{
+      color: red;
+  }
